@@ -2,34 +2,14 @@
 title: "Vorlesung"
 subtitle: "Einführung in qualitative und quantitative Forschungsmethoden"
 author: "Andre Epp & Samuel Merk"
-format: 
-  revealjs:
-    title-slide-attributes:
-      data-background-image: img/sash.svg
-      data-background-size: 30%
-      data-background-position: 0 0
-    slide-number: true
-    controls: true
-    logo: img/PHlogo.svg
-    theme: [dark, css/custom.scss]
-    chalkboard:
-      theme: whiteboard
-      boardmarker-width: 3
-      buttons: true
-      chalk-effect: 0
-    fullscreen: true
-    pdfexport: true
-bibliography: /Users/samuelmerk/Meine Ablage/Uni_gdrive/zotero-library/zotero_references.bib
-csl: /Users/samuelmerk/Meine Ablage/Uni_gdrive/zotero-library/apa.csl
-editor_options: 
-  chunk_output_type: console
+format: docx
 ---
 
 
 ## Herzlich willkommen!  [{{< fa door-open >}}]{.imp} {.center}
 
 ```{r hidden chunk which creates template stuff}
-#| echo: false
+#| echo: false 
 
 ## in terminal ########
 # quarto install extension quarto-ext/fontawesome
@@ -159,15 +139,15 @@ Folien unter https://bit.ly/merk055
 <br> 
 [{{< fa charging-station >}}]{.imp} Motivierung: Wozu _Forschung_ in der Lehrer:innenbildung?
 
-. . .
+
 
 [{{< fa microscope >}}]{.imp} Inhaltliche Einführung: Was ist Wissenschaft? 
 
-. . . 
+ 
 
 [{{< fa sitemap >}}]{.imp} Organisatorische Einführung
 
-. . .
+
 
 [{{< fa question-circle >}}]{.imp} Ihre Fragen
 
@@ -202,17 +182,17 @@ hchart(
 
 
 ::: footer
-Folien unter https://bit.ly/merk055
+Folien unter https://bit.ly/merk053
 :::
 
 ## Eine formale Begründung: {.center}
 #### Standards der Kultusministerkonferenz für die Lehrer:innenbildung
 
-. . . 
+ 
 
 > "Die Absolventinnen und Absolventen kennen Grundlagen und Ergebnisse der Schul- und Unterrichtsforschung und können diese anwendungsbezogen reflektieren"
 
-. . . 
+ 
 
 > "Die Absolventinnen und Absolventen rezipieren und bewerten Ergebnisse der Bildungs- und Schulforschung"
 
@@ -222,7 +202,7 @@ Folien unter https://bit.ly/merk055
 
 "_Kompetenzen sind latente, domänenspezifische Dispositionen, die die erfolgreiche Problemlösung wahrscheinlicher machen_"
 
-. . .
+
 
 :::: {.columns}
 
@@ -234,12 +214,12 @@ Folien unter https://bit.ly/merk055
 
 ::: {.column width="50%"}
 ### Bsp. GPK 
-"_Hr. Müller möchte seine 8. Klasse anhand eines Arbeitsblattes in das stöchiometrische Rechnen (Chemie) einführen. Er fragt sich ob er mit einem Beispiel anfangen soll oder mit einem Problem; ob er Farbe verwenden soll und wenn ja welche; ob er Formelschreibweise oder Teilchenmodelle verwenden soll; die Legende am Rand oder ins Bild integriert sein soll, etc. _"
+"_Hr. Müller möchte seine 8. Klasse anhand eines Arbeitsblattes in das stöchiometrische Rechnen (Chemie) einführen. Er fragt sich ob er mit einem Beispiel anfangen soll oder mit einem Problem; ob er Farbe verwenden soll und wenn ja welche; ob er Formelschreibweise oder Teilchenmodelle verwenden soll; die Legende am Rand oder ins Bild integriert sein soll, etc. _"]
 :::
 
 ::::
 
-. . .
+
 
 ```{r, echo = F, fig.align='center', out.width="70%", fig.cap="Trade Off von Anwendungsspektrum und Passung"}
 knitr::include_graphics("img/TradeOff.png")
@@ -254,7 +234,7 @@ knitr::include_graphics("img/TradeOff.png")
 <br>
 [{{< fa check >}}]{.imp} Forschung/Studien erleben, verstehen, interpretieren, bewerten & ggfs. zum Kompetenzaufbau nutzen. 
 
-. . .
+
 
 <br> 
 [{{< fa times-circle >}}]{.imp} Ausbildung zur Forscherin bzw. zum Forscherin.
@@ -298,7 +278,7 @@ tibble(
   knitr::kable()
 ```
 
-. . .
+
 
 <br>
 ```{r, echo = F}
@@ -334,30 +314,30 @@ tibble(
 ## [{{< fa sitemap >}}]{.imp} Organisatorische Einführung {.smaller .center}
 > Um dem Ziel »Forschung erleben« näher zu kommen, durchlaufen Sie selbst Datenerhebungen und Experimente, die wir anschließend gemeinsam besprechen.
 
-. . .
+
 
 
 * Diese sind aus didaktischen Gründen obligatorisch (gemeinsame Besprechung)
 
-. . .
+
 
 * Für eine Win-Win-Situation wünschen wir uns, dass Sie Ihre anonymisierten Daten freiwillig zur wissenschaftlichen Analyse freigeben.
 
-. . .
+
 
 * Als symbolische Anerkennung dieser »Datenspende« verlosen wir einen 50€ Amazongutschein und 4x10€ Karlsruher Einkaufsgutscheine unter allen Datenspender\*innen.
 
 ## Eingangsbefragung {.smaller}
 Als Datengrundlage für die statistischen Sitzungen (4,5,6,7) nutzen wir die Ergebnisse der Eingangsbefragung. Sie enthält außerdem Variablen, die es uns erlauben die Lehre zu optimieren (z.B. Nichtbestehensquote im SoSe deutlich gesenkt) ...
 
-. . .
+
 
 <br>
 > Link »Eingangsbefragung« auf {{< ai moodle >}}oodle (https://bit.ly/merk051)
 
 
 ## Klausur {.smaller}
-> Termin: 15.02.2022 18:00 - 19:30  
+> Termin: 14.02.2022 18:00 - 19:30  
 > Modus: Synchron-digitale Open-Book-Online-Klausur  
 
 <br>
@@ -440,7 +420,7 @@ Als Datengrundlage für die statistischen Sitzungen (4,5,6,7) nutzen wir die Erg
 ## Bsp.: Nicht-Wissenschaft {.smaller}
 > Ein Schulentwicklungsteam befragt Eltern zur neuen Schulmensa. Es verwendet einen »perfekten Fragebogen« & »optimale Auswertung«. Danach werden die Ergebnisse in einem Elternbrief kommuniziert und das Schulessen entsprechend der Ergebnisse angepasst.
 
-. . .
+
 
 Wer wissenschaftliche Forschung („scientific research“) betreibt, sucht mithilfe [anerkannter wissenschaftlicher Methoden und Methodologien]{.imp} [{{< fa check-circle >}}]{.imp} auf der Basis des [bisherigen Forschungsstandes]{.imp} [{{< fa times-circle >}}]{.imp} (d. h. vorliegender Theorien und empirischer Befunde) [zielgerichtet]{.imp} [{{< fa check-circle >}}]{.imp} nach gesicherten neuen Erkenntnissen, [dokumentiert]{.imp}  [{{< fa times-circle >}}]{.imp} den Forschungsprozess sowie dessen Ergebnisse [in nachvollziehbarer Weise]{.imp} [{{< fa times-circle >}}]{.imp} und stellt die Studie in Vorträgen und Publikationen der [Fachöffentlichkeit]{.imp} [{{< fa times-circle >}}]{.imp} vor.
 
